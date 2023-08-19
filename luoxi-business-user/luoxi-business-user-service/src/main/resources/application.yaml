@@ -1,0 +1,18 @@
+server:
+  port: 8082
+  shutdown: graceful
+
+logging:
+  level:
+    root: info
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+

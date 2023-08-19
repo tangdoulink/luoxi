@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: yixian-deshou-business-school-service
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.1.51:3848
+        refresh-enabled: true
+        file-extension: yaml
+        namespace: dev
+        group: DEV_GROUP
+
+dubbo:
+  application:
+    name: ${spring.application.name}
+    register-mode: instance
+  registry:
+    address: nacos://192.168.1.51:3848 # nacos注册中心的地址
+    parameters:
+      namespace: dubbo-dev
+    register-mode: instance
+    register: true
+    subscribe: true
+
+  protocol:
+    name: dubbo
+    port: 20880
