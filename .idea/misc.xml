@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/luoxi-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/roche-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/luoxi-framework/pom.xml" />
+        <option value="$PROJECT_DIR$/luoxi-framework/luoxi-framework-constants/pom.xml" />
+        <option value="$PROJECT_DIR$/luoxi-framework/luoxi-framework-core/pom.xml" />
+        <option value="$PROJECT_DIR$/luoxi-framework/luoxi-framewrok-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/luoxi-framework/luoxi-framework-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/luoxi-basic-user/pom.xml" />
+        <option value="$PROJECT_DIR$/luoxi-basic-user/luoxi-basic-user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/luoxi-basic-user/luoxi-basic-user-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8 (3)" project-jdk-type="JavaSDK" />
+</project>
